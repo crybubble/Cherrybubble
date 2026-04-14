@@ -1,0 +1,94 @@
+/* Container หลัก */
+.chuchububble-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* กล่องข้อความ */
+.chuchububble-container {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 10px 35px 10px 10px;
+    border: 1px solid #e0e0e0;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    min-width: 380px;
+    text-align: left;
+}
+
+/* ส่วนรูปโปรไฟล์ */
+.chuchububble-avatar-box {
+    position: relative;
+    margin-right: 20px;
+}
+
+.chuchububble-img-frame {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chuchububble-img-frame img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* จุดสถานะ Online */
+.chuchububble-status-dot {
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+    width: 14px;
+    height: 14px;
+    border: 2.5px solid #fff;
+    border-radius: 50%;
+}
+
+/* ส่วนเนื้อหาข้อความ */
+.chuchububble-info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.chuchububble-info h2 b {
+    font-weight: 700;
+}
+
+.chuchububble-info p {
+    margin: 1px 0 6px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* แถบสถานะ Active */
+.chuchububble-active-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+
+.chuchububble-inner-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.chuchububble-active-badge span {
+    font-size: 11px;
+    font-weight: 500;
+}
