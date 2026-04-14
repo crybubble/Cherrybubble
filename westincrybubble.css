@@ -1,0 +1,186 @@
+/* Container หลัก */
+.westincrybubble-container {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 20px 80px 20px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* ส่วนแบนเนอร์ */
+.westincrybubble-banner-wrapper {
+    position: relative;
+    background: #1a1d1f;
+    width: 85%;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.westincrybubble-banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    opacity: 0.6;
+}
+
+.westincrybubble-banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    z-index: 2;
+    line-height: 1.4;
+}
+
+.westincrybubble-subtext {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.westincrybubble-char-name-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.westincrybubble-accent-color {
+    color: #สีตัวอักษรแรก; /* เปลี่ยนเป็นรหัสสีที่ต้องการ */
+}
+
+.westincrybubble-switch-btn {
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.westincrybubble-stats {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 11px;
+    opacity: 0.9;
+}
+
+/* รูปโปรไฟล์ตรงกลาง */
+.westincrybubble-profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid #fff;
+    object-fit: cover;
+    z-index: 10;
+}
+
+/* Widget Now Playing */
+.westincrybubble-now-playing {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0,0,0,0.4);
+    padding: 12px;
+    border-radius: 15px;
+    width: 170px;
+    font-size: 11px;
+    color: #fff;
+    backdrop-filter: blur(5px);
+}
+
+.westincrybubble-playing-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 5px;
+}
+
+.westincrybubble-status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #สีวงกลมหน้าเพลย์; /* เปลี่ยนเป็นรหัสสีที่ต้องการ */
+}
+
+.westincrybubble-song-title {
+    color: #eeeeee;
+}
+
+.westincrybubble-update-text {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+/* ส่วนเนื้อหา */
+.westincrybubble-content-area {
+    text-align: left;
+    margin-top: 70px;
+    padding: 0 80px;
+}
+
+.westincrybubble-char-name-body {
+    font-weight: bold;
+    font-size: 25px;
+    color: #1a1d1f;
+    margin-bottom: 10px;
+}
+
+.westincrybubble-roleplay-text {
+    line-height: 1.8;
+    color: #5a544f;
+    font-size: 18px;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* ช่องหมายเหตุ */
+.westincrybubble-note-box {
+    background: #fff;
+    padding: 10px 18px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    color: #888;
+    border: 1.5px solid #bbb;
+    box-sizing: border-box;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.westincrybubble-note-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #สีหน้าหมายเหตุ; /* เปลี่ยนเป็นรหัสสีที่ต้องการ */
+    flex-shrink: 0;
+}
+
+.westincrybubble-note-placeholder {
+    flex-grow: 1;
+    opacity: 0.8;
+}
+
+.westincrybubble-note-icon {
+    font-size: 16px;
+    color: #555;
+    flex-shrink: 0;
+    user-select: none;
+}
