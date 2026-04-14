@@ -1,0 +1,71 @@
+/* 1. ดึงฟอนต์ Bai Jamjuree จาก Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap');
+
+/* 2. ตั้งค่า Container หลักให้กึ่งกลางและกว้าง 700px */
+.crycoolza-container {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+    max-width: 700px;
+    margin: 0 auto;
+    background: transparent !important;
+    border: none !important;
+    box-sizing: border-box;
+}
+
+/* 3. ส่วนของ Banner และรูปภาพ */
+.crycoolza-banner-box {
+    position: relative;
+    width: 100%;
+}
+
+.crycoolza-banner-img {
+    width: 100%;
+    display: block;
+    border-radius: 20px; /* ปรับความมนตามชอบ */
+}
+
+.crycoolza-profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* 4. ส่วนของเนื้อหา (แก้ปัญหาตัวหนังสือตัด/สระหาย) */
+.crycoolza-content-wrap {
+    width: 100%;
+    display: block;
+}
+
+.crycoolza-rp-text {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+    text-align: justify; /* หน้าหลังเท่ากัน */
+    line-height: 2 !important; /* ป้องกันสระบน-ล่างขาด */
+    word-break: normal !important;
+    overflow-wrap: anywhere !important;
+    display: block;
+    padding: 0 10px; /* เว้นระยะจากขอบนิดหน่อยให้ดูสมดุล */
+}
+
+/* 5. ส่วนของแถบหมายเหตุด้านล่าง */
+.crycoolza-note-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    background: transparent !important;
+}
+
+.crycoolza-note-placeholder {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+    flex-grow: 1;
+}
+
+/* 6. ฟอนต์สำหรับส่วนหัวและรายละเอียดอื่นๆ */
+.crycoolza-sub-txt, 
+.crycoolza-name-title, 
+.crycoolza-btn-switch, 
+.crycoolza-stats, 
+.crycoolza-song-txt {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
