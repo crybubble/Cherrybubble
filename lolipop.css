@@ -1,0 +1,135 @@
+/* คลาสทั้งหมดเริ่มต้นด้วย lolipop- */
+
+.lolipop-container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    color: #8e8e8e;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.lolipop-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.lolipop-main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    text-align: right;
+    font-weight: normal;
+    line-height: 0.9;
+    margin: 0;
+    color: #7a7a7a;
+}
+
+.lolipop-intro {
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.lolipop-sub-title {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.lolipop-divider {
+    height: 1px;
+    background: #eee;
+    margin-bottom: 15px;
+}
+
+.lolipop-description {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #999;
+}
+
+.lolipop-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.lolipop-photo-card {
+    width: 220px;
+    height: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+}
+
+.lolipop-photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: sepia(10%);
+}
+
+.lolipop-center-heart {
+    position: absolute;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    font-size: 0.7rem;
+    color: #d4a5a5;
+}
+
+.lolipop-music-card {
+    border: 1px solid #eee;
+    border-radius: 35px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lolipop-music-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.lolipop-lyrics {
+    font-size: 0.75rem;
+    color: #aaa;
+    line-height: 1.3;
+}
+
+.lolipop-cherry-thumb {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 90px;
+    height: 90px;
+}
+
+.lolipop-cherry-thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.lolipop-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-size: 0.65rem;
+    color: #ddd;
+  }
